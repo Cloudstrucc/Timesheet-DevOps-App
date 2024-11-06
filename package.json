@@ -1,0 +1,52 @@
+{
+    "name": "timesheet-automation",
+    "version": "1.0.0",
+    "description": "Timesheet automation with Excel Online integration",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+        "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+        "server": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "@azure/identity": "^3.1.0",
+        "@microsoft/microsoft-graph-client": "^3.0.0",
+        "@radix-ui/react-alert-dialog": "^1.0.0",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.0.0",
+        "csv-parse": "^5.3.0",
+        "dotenv": "^16.0.0",
+        "express": "^4.18.0",
+        "lucide-react": "^0.263.1",
+        "multer": "^1.4.5-lts.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-scripts": "5.0.1",
+        "tailwindcss": "^3.3.0",
+        "tailwindcss-animate": "^1.0.0",
+        "timesheet-automation": "file:"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+        "@types/node": "^20.0.0",
+        "@types/react": "^18.0.0",
+        "autoprefixer": "^10.4.0",
+        "nodemon": "^2.0.15",
+        "postcss": "^8.4.0"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
