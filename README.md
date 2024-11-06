@@ -2,7 +2,7 @@
 
 A Node.js and React application that automates timesheet management by processing Azure DevOps work items and updating Excel Online timesheets using Microsoft Graph API.
 
-![Timesheet Upload Interface](https://raw.githubusercontent.com/username/timesheet-automation/main/docs/images/upload-interface.png)
+![Timesheet Upload Interface](https://github.com/Cloudstrucc/Timesheet-DevOps-App/blob/main/public/img/image.png)
 
 ## 🌟 Features
 
