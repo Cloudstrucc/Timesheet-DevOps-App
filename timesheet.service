@@ -1,0 +1,16 @@
+[Unit]
+Description=Timesheet Automation Application
+After=network.target
+
+[Service]
+Type=simple
+Environment=NODE_ENV=production
+Environment=PORT=3001
+Environment="PATH=/usr/bin:/usr/local/bin"
+WorkingDirectory=/home/fredp614/timesheet-app
+ExecStart=/usr/bin/node src/server.js
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
